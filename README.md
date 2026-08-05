@@ -1,4 +1,8 @@
-# Vidéos pour la maturité professionnelle.
+---
+title: videos-maths-matu-pro
+---
+
+# Vidéos pour la maturité professionnelle
 
 ## Ensembles
 
