@@ -23,7 +23,7 @@ def main(csv_path, md_path):
     for kw, rows in groups.items():
         out += [f"## {kw}", ""]
         for r in rows:
-            title = html.unescape(r["title"].strip())
+            title = html.unescape(r["title"].strip()).replace("|", "\\|")
             year = r["date"][:4]
             out.append(f"- {r['channel']}, [_{title}_]({r['url']}), YouTube, {year}.")
         out.append("")
